@@ -20,7 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `reyes`
 --
-
+CREATE DATABASE IF NOT EXISTS `reyes` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+USE `reyes`;
 -- --------------------------------------------------------
 
 --
